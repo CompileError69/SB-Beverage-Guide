@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Starbucks Beverage Guide</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- For box icon on mobile view -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+
+  <body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-left">
+              <h1><a href="index.html">Starbucks Guide</a></h1>
+            </div>
+
+            <div class="navbar-center">
+              <ul>
+                <li><button id="hot-coffee">Hot Coffee</button></li>
+                <li><button id="iced-coffee">Iced Coffee</button></li>
+                <li><button id="hot-tea">Hot Tea</button></li>
+                <li><button id="iced-tea">Iced Tea</button></li>
+                <li><button id="frappe">Frappe</button></li>
+                <li><button id="food">Food</button></li>
+              </ul>
+            </div>
+            
+            <div class="navbar-right">
+              <input id="search-bar" type="text" placeholder="Search">
+              <div id="search-results"></div>
+            </div>
+          </nav>
+    </header>
+    
+    <main>
+      <div class="category-header">
+        <!-- Category of the selected option will be shown above the flashcard -->
+      </div>
+      <div id="flashcard-container">
+        <!-- flashcard content will be generated dynamically here -->
+        <div id="flashcard-img-container"></div>
+        <div id="flashcard-drink-name"></div>
+
+        <div id="flashcard-btns">
+          <button id="archive-btn"><i class="fa-solid fa-star"></i></button>
+          <button id="show-description-btn"><i class="fa-solid fa-caret-down"></i></button>
+        </div>
+            
+        <div id="description-container">
+            <!-- description of the current flashcard will be displayed here when the user clicks "Show Description" -->
+        </div>
+        </div>
+        
+        <div class="option-btns">
+          <button id="hot-coffee-btn">Hot Coffee</button>
+          <button id="iced-coffee-btn">Iced Coffee</button>
+          <button id="hot-tea-btn">Hot Tea</button>
+          <button id="iced-tea-btn">Iced Tea</button>
+          <button id="frappe-btn">Frappe</button>
+          <button id="food-btn">Food</button>
+        </div>
+    </main>
+    
+    <footer>
+      <div>
+        <p>Copyright 2023 &copy; Joshua Hee.</p>
+      </div>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
