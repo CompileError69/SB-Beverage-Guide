@@ -97,7 +97,6 @@ body {
 
 #flashcard-img-container {
   border-radius: inherit;
-  border: 1px solid green;
 }
 
 #flashcard-img-container img {
@@ -201,6 +200,12 @@ body {
   
   #flashcard-container {
     margin: 5% 15%;
+  }
+
+  .option-btns button {
+    font-size: 16px;
+    width: 125px;
+    margin: 10px;
   }
 }
 
