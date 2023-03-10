@@ -124,7 +124,7 @@ const flashcardsData = [
     {
         category: "Hot Coffee",
         image: "hot_coffee_img/brewed_coffee.jpg",
-        name: "Brewed Coffee",
+        name: "Brewed Coffee (BC)",
         steam_milk: "",
         shots: "",
         concentrate: "<span class='bold-text'>Concentrate</span>: 2, 3, 4, 5 <span class='red-text'>[if requested]</span>",
@@ -226,7 +226,7 @@ const flashcardsData = [
     {
         category: "Iced Coffee",
         image: "iced_coffee_img/vanilla_sweet_cream_cold_brew.jpg",
-        name: "Vanilla Sweet Cream Cold Brew (VSC)",
+        name: "Vanilla Sweet Cream Cold Brew (VSCCB)",
         steam_milk: "",
         shots: "",
         concentrate: "<span class='bold-text'>Concentrate</span>: 3, 4, 5 <span class='red-text'>[if requested]</span>",
@@ -308,7 +308,7 @@ const flashcardsData = [
     {
         category: "Hot Tea",
         image: "hot_tea_img/pure_matcha_and_espresso_fusion.jpg",
-        name: "Pure Matcha & Espresso Fusion (PMEF)",
+        name: "Pure Matcha & Espresso Fusion (MEF)",
         steam_milk: "Milk to appropriate line on pitcher",
         shots: "<span class='bold-text'>Pure Matcha Powder</span>: 2, 2, 3, 4. Aerate 1-3 secs",
         concentrate: "<span class='bold-text'>Shots</span>: 1, 1, 2, 2",
@@ -390,7 +390,7 @@ const flashcardsData = [
     {
         category: "Iced Tea",
         image: "iced_tea_img/iced_pure_matcha_and_espresso_fusion.jpg",
-        name: "Iced Pure Matcha & Espresso Fusion (PMEF)",
+        name: "Iced Pure Matcha & Espresso Fusion (MEF)",
         steam_milk: "Cold water to line 1 on shaker. Pour water into blender",
         shots: "<span class='bold-text'>Pure Matcha Powder</span>: 2, 3, 4",
         concentrate: "<span class='bold-text'>Classic Syrup</span>: 2, 3, 4. Press #1. Pour contents into cup",
@@ -589,6 +589,118 @@ const flashcardsData = [
         sc_syrup: "Press #1",
         final_steps: "Pour contents into cup"
     },
+
+    // Other
+    {
+        category: "Other",
+        image: "other_beverages_img/pistachio_white_chocolate_macchiato.jpg",
+        name: "Pistachio White Chocolate Macchiato (PWCM)",
+        steam_milk: "Milk to appropriate line on pitcher.",
+        shots: "<span class='bold-text'>Pistachio Powder</span>: 1, 2, 3, 4",
+        concentrate: "Aerate 1-3 secs",
+        sc_syrup: "<span class='bold-text'>Shots</span>: 1, 1, 2, 2",
+        final_steps: "Pour shots through foam. Pistachio sauce. Top with Pistachio toppings"
+    },
+    {
+        category: "Other",
+        image: "other_beverages_img/iced_pistachio_white_chocolate_macchiato.jpg",
+        name: "Iced Pistachio White Chocolate Macchiato (PWCM)",
+        steam_milk: "<span class='bold-text'>Shots</span>: 1, 2, 2",
+        shots: "Milk to line 2 on shaker",
+        concentrate: "<span class='bold-text'>Pistachio Powder</span>: 2, 3, 4",
+        sc_syrup: "Shake 10 times. Pour contents into cup. Add ice. Pour shots over ice",
+        final_steps: "Pistachio sauce. Top with Pistachio toppings"
+    },
+    {
+        category: "Other",
+        image: "other_beverages_img/pistachio_white_chocolate_frappe.jpg",
+        name: "Pistachio White Chocolate Frappuccino (PWF)",
+        steam_milk: "<span class='bold-text'>Frappe Roast</span>: 2, 3, 4",
+        shots: "Milk to lower line on cup. Pour contents into blender",
+        concentrate: "<span class='bold-text'>Pistachio Sauce</span>: 2, 3, 4. Add ice",
+        sc_syrup: "<span class='bold-text'>Coffee Base</span>: 2, 3, 4",
+        final_steps: "Press #1. Top with whipped cream and Pistachio toppings. White mocha sauce drizzle"
+    },
+    {
+        category: "Other",
+        image: "other_beverages_img/strawberry_pie_pure_matcha_latte.jpg",
+        name: "Strawberry Pie Pure Matcha Latte (SPML)",
+        steam_milk: "<span class='bold-text'>Strawberry Pie Sweet Cream</span>: 150ml into cold foam pitcher. Press #4",
+        shots: "Milk to appropriate line on pitcher. Aerate 1-3 secs",
+        concentrate: "<span class='bold-text'>Pure Matcha Mixture</span>: 1, 1, 2, 2. Use 15ml scoop. Pour into cup",
+        sc_syrup: "<span class='bold-text'>Strawberry Pie Syrup</span>: 1, 2, 3, 4",
+        final_steps: "Pour steamed milk into cup. Top with Strawberry Pie Cream Foam. 1 scoop of Strawberry Cookie crumble"
+    },
+    {
+        category: "Other",
+        image: "other_beverages_img/iced_strawberry_pie_pure_matcha_latte.jpg",
+        name: "Iced Strawberry Pie Pure Matcha Latte (SPML)",
+        steam_milk: "<span class='bold-text'>Strawberry Pie Sweet Cream</span>: 150ml into cold foam pitcher. Press #4",
+        shots: "<span class='bold-text'>Strawberry Pie Syrup</span>: 2, 3, 4",
+        concentrate: "Milk to middle line of cup",
+        sc_syrup: "<span class='bold-text'>Pure Matcha Mixture</span>: 1, 2, 2. Use 15ml scoop. Pour into cup. Add ice",
+        final_steps: "Top with Strawberry Pie Cream Foam. 1 scoop of Strawberry Cookie crumble"
+    },
+    {
+        category: "Other",
+        image: "other_beverages_img/strawberry_pie_cream_frappe.jpg",
+        name: "Strawberry Pie Cream Frappuccino (SCF)",
+        steam_milk: "Milk to lower line on cup. Pour contents into blender",
+        shots: "<span class='bold-text'>Strawberry Pie Syrup</span>: 2, 3, 4. Add ice",
+        concentrate: "<span class='bold-text'>Cream Base</span>: 2, 3, 4. Press #1",
+        sc_syrup: "<span class='bold-text'>Strawberry Pie Syrup</span>: 2, 3, 4 into cup",
+        final_steps: "2, 3, 4 scoops of Strawberry Cookie Crumble into blended contents. Swirl. Top with whipped cream. 1 scoop of Strawberry Cookie Crumble"
+    },
+    {
+        category: "Other",
+        image: "other_beverages_img/pink_drink.jpg",
+        name: "Pink Drink with Strawberry Acai (PDR)",
+        steam_milk: "<span class='bold-text'>Acai Base</span>: Acai base to 'C' line on shaker. Water to line 1",
+        shots: "Water to line 1. Coconut milk to line 2",
+        concentrate: "Coconut milk to line 2",
+        sc_syrup: "2 scoops of dried strawberry",
+        final_steps: "Add ice. Shake 10 times"
+    },
+    {
+        category: "Other",
+        image: "other_beverages_img/strawberry_acai_with_lemonade.jpg",
+        name: "Strawberry Acai with Lemonade",
+        steam_milk: "<span class='bold-text'>Acai Base</span>: Acai base to 'C' line on shaker.",
+        shots: "Water to line 1 on shaker",
+        concentrate: "Lemonade to line 2",
+        sc_syrup: "2 scoops of dried strawberry",
+        final_steps: "Add ice. Shake 10 times"
+    },
+    {
+        category: "Other",
+        image: "other_beverages_img/classic_hot_chocolate.jpg",
+        name: "Classic Hot Chocolate (CHC)",
+        steam_milk: "Milk to appropriate line on pitcher. Aerate 1-3 secs",
+        shots: "<span class='bold-text'>Mocha Sauce</span>: 2, 3, 4, 5",
+        concentrate: "<span class='bold-text'>Vanilla Concentrate</span>: 1, 1, 2, 2",
+        sc_syrup: "<span class='bold-text'>Cane Syrup</span>: 1, 1, 2, 2",
+        final_steps: "Fill cup with steamed milk. Top with whipped cream. Add Mocha drizzle"
+    },
+    {
+        category: "Other",
+        image: "other_beverages_img/signature_hot_chocolate.jpg",
+        name: "Signature Hot Chocolate (SHC)",
+        steam_milk: "Chocolate mix to lower line on pitcher",
+        shots: "Milk to upper line on pitcher. Aerate 3-5 secs",
+        concentrate: "<span class='bold-text'>Concentrate</span>: 2, 3, 4, 5 <span class='red-text'>[if requested]</span>",
+        sc_syrup: "<span class='bold-text'>Cane Syrup</span>: 2, 3, 4, 5 <span class='red-text'>[if requested]</span>",
+        final_steps: "Fill cup with steamed milk. Top with whipped cream and cocoa powder"
+    },
+    {
+        category: "Other",
+        image: "other_beverages_img/iced_signature_chocolate.jpg",
+        name: "Iced Signature Chocolate (SC)",
+        steam_milk: "<span class='bold-text'>Concentrate</span>: 2, 3, 4 <span class='red-text'>[if requested]</span>",
+        shots: "<span class='bold-text'>Cane Syrup</span>: 2, 3, 4 <span class='red-text'>[if requested]</span>",
+        concentrate: "<span class='bold-text'>Chocolate Pre-mix</span>: Pour to bottom of the logo",
+        sc_syrup: "Milk to upper line on cup",
+        final_steps: "Stir Chocolate Pre-mix and milk"
+    }
 ];
   
 // Define variables for the flashcard container, description container, and show description button
@@ -616,6 +728,9 @@ icedTeaBtn.addEventListener("click", generateRandomFlashcard.bind(null, "Iced Te
 
 const frappeBtn = document.querySelector("#frappe-btn");
 frappeBtn.addEventListener("click", generateRandomFlashcard.bind(null, "Frappe"));
+
+const otherBtn = document.querySelector("#other-btn");
+otherBtn.addEventListener("click", generateRandomFlashcard.bind(null, "Other"));
   
 // Define a function to generate a random flashcard for a given category
 function generateRandomFlashcard(category) {
