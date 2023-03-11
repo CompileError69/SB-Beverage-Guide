@@ -656,7 +656,7 @@ const flashcardsData = [
         image: "other_beverages_img/pink_drink.jpg",
         name: "Pink Drink with Strawberry Acai (PDR)",
         steam_milk: "<span class='bold-text'>Acai Base</span>: Acai base to 'C' line on shaker. Water to line 1",
-        shots: "Water to line 1. Coconut milk to line 2",
+        shots: "Water to line 1",
         concentrate: "Coconut milk to line 2",
         sc_syrup: "2 scoops of dried strawberry",
         final_steps: "Add ice. Shake 10 times"
