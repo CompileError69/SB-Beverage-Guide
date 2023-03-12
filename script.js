@@ -447,7 +447,7 @@ const flashcardsData = [
         shots: "Milk to lower line on cup. Pour contents into blender",
         concentrate: "<span class='bold-text'>Caramel Concentrate</span>: 2, 3, 4",
         sc_syrup: "<span class='bold-text'>Cane Syrup</span>: 2, 3, 4. Add ice",
-        final_steps: "<span class='bold-text'>Coffee Base</span>: 2, 3, 4. Add ice. Press #1. Top with whipped cream and caramel sauce"
+        final_steps: "<span class='bold-text'>Coffee Base</span>: 2, 3, 4. Press #1. Top with whipped cream and caramel sauce"
     },
     {
         category: "Frappe",
