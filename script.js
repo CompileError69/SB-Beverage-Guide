@@ -320,7 +320,7 @@ const flashcardsData = [
     {
         category: "Iced Tea",
         image: "iced_tea_img/shaken_iced_tea_with_ruby_grapefruit_and_honey.jpg",
-        name: "Shaken Iced Tea with Ruby Grapefruit and Honey",
+        name: "Shaken Iced Tea with Ruby Grapefruit and Honey (OTG)",
         steam_milk: "<span class='bold-text'>Grapefruit Sauce</span>: 2, 3, 4 into shaker",
         shots: "<span class='bold-text'>Teavana Tea</span>: Fill shaker with tea to line 1 on shaker",
         concentrate: "<span class='bold-text'>Cold water</span>: Add cold water to line 2",
@@ -350,7 +350,7 @@ const flashcardsData = [
     {
         category: "Iced Tea",
         image: "iced_tea_img/iced_hojicha_tea_latte.jpg",
-        name: "Iced Hojicha Tea Latte",
+        name: "Iced Hojicha Tea Latte (HTL)",
         steam_milk: "Milk to line 2 on shaker. Add ice",
         shots: "<span class='bold-text'>Hojicha Powder</span>: 2, 3, 4",
         concentrate: "",
@@ -552,7 +552,7 @@ const flashcardsData = [
     {
         category: "Frappe",
         image: "frappe_beverage_img/caramel_cream_frappe.jpg",
-        name: "Caramel Cream Frappuccino",
+        name: "Caramel Cream Frappuccino (CCF)",
         steam_milk: "Milk to lower line on cup. Pour contents into blender",
         shots: "<span class='bold-text'>Caramel Concentrate</span>: 2, 3, 4",
         concentrate: "<span class='bold-text'>Cane Syrup</span>: 2, 3, 4. Add ice",
@@ -664,7 +664,7 @@ const flashcardsData = [
     {
         category: "Other",
         image: "other_beverages_img/strawberry_acai_with_lemonade.jpg",
-        name: "Strawberry Acai with Lemonade",
+        name: "Strawberry Acai with Lemonade (SAR)",
         steam_milk: "<span class='bold-text'>Acai Base</span>: Acai base to 'C' line on shaker.",
         shots: "Water to line 1 on shaker",
         concentrate: "Lemonade to line 2",
